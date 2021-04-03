@@ -1,0 +1,9 @@
+testproblem,optimizer,mid_budget,oneshot,large_budget
+cifar10_3c3d,AMSBoundOptimizer,83.28,83.26,83.22
+cifar100_allcnnc,AMSGrad,53.01,3.38,52.65
+fmnist_2c2d,AdaBoundOptimizer,92.07,92.13,92.11
+mnist_vae,AdadeltaOptimizer,29.04,51.14,28.83
+svhn_wrn164,AdagradOptimizer,95.04,95.25,95.12
+fmnist_vae,AdamOptimizer,23.08,23.89,23.07
+quadratic_deep,LookaheadOptimizerMBGDMomentum,98.21,89.63,92.03
+tolstoi_char_rnn,LookaheadOptimizerRAdam,60.08,31.7,61.72
